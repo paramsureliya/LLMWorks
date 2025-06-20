@@ -9,7 +9,7 @@ from PyPDF2 import PdfReader
 import cassio
 import os
 
-# Load API keys from environment variables (set these securely )
+# Load API keys from environment variables (set these securely)
 ASTRA_DB_APPLICATION_TOKEN = os.getenv("ASTRA_DB_APPLICATION_TOKEN")
 ASTRA_DB_ID = os.getenv("ASTRA_DB_ID")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
