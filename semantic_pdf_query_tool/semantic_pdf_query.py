@@ -31,7 +31,6 @@ astra_vector_store = Cassandra(
 
 # Load and read the PDF file (contains academic research on pairs trading)
 pdf_path = "Pairs Trading  Performance of a Relative.pdf"  # Give PDF file path
-
 pdf_reader = PdfReader(pdf_path)
 
 # Extract all text from the PDF pages into one string
