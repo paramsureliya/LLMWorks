@@ -29,7 +29,7 @@ astra_vector_store = Cassandra(
     keyspace=None,
 )
 
-# Load and read the PDF file (contains academic research on pairs trading)
+# Load and read the PDF file (contains academic research on pairs trading )
 pdf_path = "Pairs Trading  Performance of a Relative.pdf"  # Give PDF file path
 pdf_reader = PdfReader(pdf_path)
 
