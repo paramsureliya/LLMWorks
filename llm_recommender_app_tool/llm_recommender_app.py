@@ -21,7 +21,7 @@ mood_prompt = PromptTemplate(
 )
 mood_chain = LLMChain(llm=llm, prompt=mood_prompt, output_key='quote')
 
-# Second prompt: Ask for a brief explanation about the quote
+# Second prompt:Ask for a brief explanation about the quote
 explanation_prompt = PromptTemplate(
     input_variables=['quote'],
     template="Explain the meaning of this quote briefly in 3 bullet points:\n{quote}"
